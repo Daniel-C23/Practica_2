@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.seccion-1{
+    width: 100%;
+    background-color: rgb(98, 57, 245);
+    border-radius: 0 0 3.5rem 3.5rem;
+    color: white;
+    text-align: center;
+    padding: 0 4rem;
+}
+.titulo{
+    font-size: 1.8rem;
+    color: #a8a6a6;
+    padding: 3rem 0;
+}
+.circulo{
+    border-radius: 25rem;
+    width: 13rem;
+    height: 13rem;
+    background-color: rgb(66, 35, 175);
+    padding-top: 0.2rem;
+    display: inline-block;
+}
+.circulo h1{
+    font-size: 4rem;
+    margin-top: 2.5rem;
+}
+.circulo p{
+    color: gray;
+    margin-top: 1rem;
+}
+.texto-principio{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.texto-principio h1{
+    margin-bottom: 1rem;
+}
+.texto-principio p{
+    color: rgb(218, 213, 213);
+    margin: auto;
+    padding-bottom: 3rem;
+    
+}
+.seccion-2{
+    margin-top: 3rem;
+    padding: 0 2rem;
+}
+.seccion-2 h1{
+    padding-bottom: 2rem;
+    color: #666666;
+    
+}
+.caja{
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    margin: 2rem 0;
+}
+.caja div{
+    display: flex;
+    margin: 0 1rem;
+}
+.caja .caja-left figure{
+    margin-right: 1rem;
+}
+.caja .caja-left p{
+    font-weight: bold;
+}
+.caja .caja-rigth p{
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+.caja .caja-rigth .porcentaje{
+    color: #a8a6a6;
+}
+.caja-1{
+    background-color: rgb(255, 245, 245);
+}
+.caja-1 .caja-left p{
+    color: rgb(243, 130, 130);
+}
+.caja-2{
+    background-color: rgb(255, 252, 221);
+}
+.caja-2 .caja-left p{
+    color: rgb(211, 162, 71);
+}
+.caja-3{
+    background-color: rgb(235, 252, 221);
+}
+.caja-3 .caja-left p{
+    color: rgb(127, 185, 50);
+}
+.caja-4{
+    background-color: rgb(223, 221, 252);
+}
+.caja-4 .caja-left p{
+    color: rgb(75, 50, 185);
+}
+.boton{
+    background-color: rgb(70, 70, 119);
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    margin-bottom: 4rem;
+    border-radius: 5rem;
+    width: 100%;
+}
+.boton h1{
+    padding: 1rem 0;
+    color: whitesmoke;
+}
+
+@media (min-width: 760px){
+    body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    }
+    main{
+        display: flex;
+        width: auto;
+        height: auto;
+        border-radius: 4rem;
+        overflow: hidden;
+        border: 0.1rem solid rgb(219, 217, 217);
+    }
+    .seccion-1{
+        width: 300px;
+        border-radius: 4rem;
+    }
+    .seccion-2{
+        margin-top: 1rem;
+    }
+    .seccion-2 h1{
+        margin: 0 0 1rem 0;
+        padding: 0;
+    }
+    .caja{
+        width: 250px;
+        margin: 0 0 1.3rem 0 ;
+        height: 4rem;
+    }
+    .boton{
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    .boton:hover{
+        background-color: rgb(74, 20, 175);
+        cursor: pointer;
+    }
+    .boton h1{
+        padding: 1rem 0;
+        margin: 0;
+    }
+
+}
